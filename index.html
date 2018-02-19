@@ -5,35 +5,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-        crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <title>Maddy Fiksdal Portfolio - Bootstrap</title>
 </head>
 
 <body>
     <style>
-        body{
+        body {
             overflow-x: hidden;
         }
 
         footer {
             position: fixed;
-            bottom:0;
+            bottom: 0;
             width: 100%;
             height: 80px;
             background-color: #666666;
             border-top: 2px solid #4aaaa5;
+            text-align: center;
+        }
+
+        .text-muted {
+            color: white;
+        }
+
+        .sidebar-panel {
+            width: 250px;
+        }
+
+        .panel-body a{
+            font-size:36px;
+            margin-left: 18px;
+            padding:7px;
+            display:inline-block;
             text-align:center;
+            float:none;
+            vertical-align:top;
         }
 
-        .text-muted{
-            color:white;
-        }
+        
 
-        .sidebar-panel{
-            width: 300px;
-        }
     </style>
 
     <nav class="navbar navbar-default">
@@ -55,60 +67,64 @@
         </div>
     </nav>
 
-        <div class="container">
+    <div class="container">
 
-            <!--row 1 about me and navbar-->
-            <div class="row">
+        <!--row 1 about me and navbar-->
+        <div class="row">
 
-                <div class="col-md-8">
-                    <div class="panel panel-default">
-                        <div class="panel-body">
-                            <h1>About Me</h1>
-                            <img src="./images/resize1.jpg" class="img-reponsive" salt="Maddy Photo">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sed ab eos, quas nemo, nulla
-                                dignissimos recusandae hic cumque in magni quam commodi. Quidem praesentium porro, qui libero
-                                fugiat error.</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo incidunt maxime sit quae laboriosam
-                                ad fuga, expedita consectetur impedit a reiciendis nobis corrupti, quo consequuntur labore
-                                tempore minus recusandae distinctio!
-                            </p>
-                        </div>
+            <div class="col-md-1"></div>
+
+            <div class="col-md-6">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <h1>About Me</h1>
+                        <img src="./images/resize1.jpg" class="img-reponsive" alt="Maddy Photo">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sed ab eos, quas nemo, nulla dignissimos recusandae hic cumque in magni quam commodi. Quidem praesentium porro, qui libero fugiat error.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo incidunt maxime sit quae laboriosam ad fuga, expedita consectetur impedit a reiciendis nobis corrupti, quo consequuntur labore tempore minus recusandae distinctio!
+                        </p>
                     </div>
                 </div>
+            </div>
 
-                <div class="col-md-4">
-                    <div class="container">
-                        <div class="sidebar-panel">
+            <div class="col-md-4">
+                <div class="container">
+                    <div class="sidebar-panel">
                         <div class="panel panel-default">
                             <div class="panel-heading">Connect with Me</div>
-                            <div class="panel-body">Sidebar Content</div>
+                            <div class="panel-body">
+                                    <a href="https://github.com/m-fiks" target="_blank"><i class="fab fa-github" style="color:black"></i></a>
+                                    <a href="https://www.linkedin.com/in/madeleine-fiksdal-53a0658a/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                    <a href="https://stackoverflow.com/users/9182376/m-fiksdal" target="_blank"><i class="fab fa-stack-overflow" style="color:orange"></i></a>
+                            </div>
                         </div>
                     </div>
-                    </div>
                 </div>
-
             </div>
 
-            <!--row 2-->
-            <div class="row">
+        <div class="col-md-1"></div>
 
-
-
-            </div>
-
-            <!--container div-->
         </div>
 
-                <footer class="footer">
-                    <div class="container">
-                        <span class="text-muted"> &copy; Copyright 2018 Maddy Fiksdal
+        <!--row 2-->
+        <div class="row">
+
+
+
+        </div>
+
+        <!--container div-->
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <span class="text-muted"> &copy; Copyright 2018 Maddy Fiksdal
                         </span>
-                    </div>
-                </footer>
-            
+        </div>
+    </footer>
 
 
-            
+
+
     </div>
 </body>
 
