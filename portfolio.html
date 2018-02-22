@@ -11,36 +11,52 @@
 </head>
 
 <body>
-        <style>
-                body {
-                    overflow-x: hidden;
-                    background-image: url("./images/topography.jpg")
-                }
+    <style>
+        body {
+            overflow-x: hidden;
+            background-image: url("./images/topography.jpg")
+        }
+
+        h1{
+            width:300px;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            height: 80px;
+            background-color: #666666;
+            border-top: 2px solid #4aaaa5;
+            text-align: center;
+        }
+
+        .sidebar-panel {
+            width: 250px;
+            float:right;
+        }
+
+        .panel-body a {
+            font-size: 36px;
+            margin-left: 18px;
+            padding: 7px;
+            display: inline-block;
+            text-align: center;
+            float: none;
+            vertical-align: top;
+        }
         
-                footer {
-                    position: fixed;
-                    bottom: 0;
-                    width: 100%;
-                    height: 80px;
-                    background-color: #666666;
-                    border-top: 2px solid #4aaaa5;
-                    text-align: center;
-                }
+        .side{
+            margin-top:-600px;
+        }
         
-                .sidebar-panel {
-                    width: 250px;
-                }
-        
-                .panel-body a {
-                    font-size: 36px;
-                    margin-left: 18px;
-                    padding: 7px;
-                    display: inline-block;
-                    text-align: center;
-                    float: none;
-                    vertical-align: top;
-                }
-            </style>        
+        .gallery{
+            width: 650px;
+            border: solid 1 px white;
+            background-color: white;
+            padding: 15px;
+        }
+    </style>
 
 
     <nav class="navbar navbar-default">
@@ -62,21 +78,80 @@
         </div>
     </nav>
 
-    <div class="container">
 
+<div class="container">
 
+<!--gallery container-->
+<div class="gallery">
+<div class="container">
+    <h1>Portfolio</h1>
+        <!--subrow 1-->
+        <div class="row">
+            <div class="col-md-4">
+                <img src="./images/354.jpg" class="img-responsive" alt="road" height=200px width=220px>
+                <div class="caption">Hangman</div>
+            </div>
+            <div class="col-md-4">
+                <img src="./images/3708.jpg" class="img-responsive" alt="building" height=200px width=220px>
+                <div class="caption">Trivia Game</div>
+            </div>
+        <!--end subrow 1-->
+        </div>
 
+        <!--subrow 2-->
+        <div class="row">
+            <div class="col-md-4">
+                <img src="./images/3280.jpg" class="img-responsive" alt="space" height=200px width=220px>
+                <div class="caption">Rock, Paper, Scissors</div>
+            </div>
+            <div class="col-md-4">
+                <img src="./images/4311.jpg" class="img-responsive" height=200px width=220px>
+                <div class="caption">RPG Game</div>
+            </div>
+        <!--end subrow 2-->
+        </div>
 
-        
+        <!--subrow 3-->
+        <div class="row">
+            <div class="col-md-4">
+                <img src="./images/2731.jpg" class="img-responsive" height=200px width=220px>
+                <div class="caption">Rutgers Info Widget</div>
+            </div>
+        <!--end subrow 3-->
+        </div>
 
-        <!--container div-->
+        <!--end gallery container??-->
     </div>
+</div>
+
+<div class="row">
+        <div class="col-md-4">
+                <div class="side">
+                <div class="container">
+                    <div class="sidebar-panel">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">Connect with Me</div>
+                            <div class="panel-body">
+                                <a href="https://github.com/m-fiks" target="_blank"><i class="fab fa-github" style="color:black"></i></a>
+                                <a href="https://www.linkedin.com/in/madeleine-fiksdal-53a0658a/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://stackoverflow.com/users/9182376/m-fiksdal" target="_blank"><i class="fab fa-stack-overflow" style="color:orange"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+
+<!--container div-->
+</div>
 
     <footer class="footer">
         <div class="container">
             <span class="text-muted" style="color:white"> &copy; Copyright 2018 Maddy Fiksdal
                 </span>
         </div>
+
     </footer>
 </body>
 
