@@ -17,9 +17,6 @@
             background-image: url("./images/topography.jpg")
         }
 
-        h1{
-            width:300px;
-        }
 
         footer {
             position: fixed;
@@ -34,6 +31,7 @@
         .sidebar-panel {
             width: 250px;
             float:right;
+            margin-top: 60px;
         }
 
         .panel-body a {
@@ -55,22 +53,28 @@
             width: 650px;
             border: solid 1 px white;
             background-color: white;
-            padding: 15px;
         }
 
         .caption{
-            margin:-30px -60px 20px 61px;
-            opacity:0.5;
+           
+            opacity:1;
+            border:solid 1 px #4aaaa5;
+            background-color: #4aaaa5;
+            width:218px;
+            height:30px;
+            margin:-48px 1px;
+            position:absolute;
         }
 
         .caption p{
             color:white;
             opacity:1;
-            border:solid 1 px #4aaaa5;
-            background-color: #4aaaa5;
-            width:150px;
-            height:30px;
-            opacity:1;
+        }
+
+        .img-responsive {
+            opacity:0.7;
+            position:relative;
+            margin-bottom: 8px;
         }
     </style>
 
@@ -103,36 +107,58 @@
     <h1>Portfolio</h1>
         <!--subrow 1-->
         <div class="row">
-            <div class="col-md-4">
-                <img src="./images/354.jpg" class="img-responsive" alt="road" height=200px width=220px>
+
+            <div class="col-md-1" style="margin-left: 10px"></div>
+
+            <div class="col-md-3">
+                <img src="./images/9037.jpg" class="img-responsive" alt="road" height=200px width=220px>
                 <div class="caption"><p>Hangman</p></div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <img src="./images/3708.jpg" class="img-responsive" alt="building" height=200px width=220px>
                 <div class="caption"><p>Trivia Game</p></div>
             </div>
+
+            <div class="col-md-1"></div>
+
         <!--end subrow 1-->
         </div>
 
         <!--subrow 2-->
+
+        <div class="col-md-1"></div>
+
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <img src="./images/3280.jpg" class="img-responsive" alt="space" height=200px width=220px>
                 <div class="caption"><p>Rock</p></div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <img src="./images/4311.jpg" class="img-responsive" height=200px width=220px>
                 <div class="caption"><p>RPG Game</p></div>
             </div>
+
+            <div class="col-md-1"></div>
+
         <!--end subrow 2-->
         </div>
 
         <!--subrow 3-->
+
+        <div class="col-md-1"></div>
+
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <img src="./images/2731.jpg" class="img-responsive" height=200px width=220px>
                 <div class="caption"><p>Rutgers Info</p></div>
             </div>
+            <div class="col-md-3">
+                <img src="./images/03040.jpg" class="img-responsive" height=200px width=220px>
+                <div class="caption"><p>Scratch Game</p></div>
+            </div>
+
+            <div class="col-md-1"></div>
+
         <!--end subrow 3-->
         </div>
 
@@ -170,7 +196,5 @@
 
     </footer>
 </body>
-
-
 
 </html>
