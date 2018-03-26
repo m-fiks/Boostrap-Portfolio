@@ -1,0 +1,92 @@
+/* font-family: 'Titillium Web', sans-serif;
+font-family: 'Bree Serif', serif; 
+font-family: 'Rock Salt', cursive;
+font-family: 'Amatic SC', cursive;*/
+
+/* portfolio page */
+body {
+    overflow-x: hidden;
+    background-image: url("../images/topography.jpg");
+    font-family: 'Titillium Web', sans-serif;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #666666;
+    border-top: 2px solid #46b8da;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Rock Salt', cursive; 
+    border-bottom: solid 1px grey;
+}
+
+.sidebar-panel {
+    width: 275px;
+    margin-bottom: 80px;
+}
+
+.panel-heading{
+    text-align:center;
+}
+.panel-body a {
+    font-size: 36px;
+    margin-left: 18px;
+    padding: 7px;
+    display: inline-block;
+    text-align: center;
+    float: none;
+    vertical-align: top;
+}
+
+.row{
+    margin:0px;
+}
+
+#projects{
+    display: inline-block;
+    background-color:#ffffff;
+    padding:10px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h2{
+    font-size:38px;
+    font-family: 'Amatic SC', cursive;
+    margin-top:-5px;
+}
+
+h3{
+    font-size:32px;
+    font-family: 'Amatic SC', cursive;
+}
+
+.panel-body > img{
+    opacity:1;
+}
+
+img{
+    position:relative;
+    opacity:0.7;
+    margin-top:20px;
+}
+
+.img-responsive {
+    width:200px;
+    height:140px;
+    padding:4px;
+    border: solid 1px rgb(28, 28, 29);
+}
+
+/* contact page */
+
+form {
+    border: solid 1 px white;
+    background-color: white;
+    padding: 15px;
+    font-family: 'Titillium Web', sans-serif;
+};
