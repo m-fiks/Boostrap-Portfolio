@@ -3,6 +3,10 @@ font-family: 'Bree Serif', serif;
 font-family: 'Rock Salt', cursive;
 font-family: 'Amatic SC', cursive;*/
 
+#nav > li > a:hover {
+    color: #46b8da;
+}
+
 /* portfolio page */
 body {
     overflow-x: hidden;
@@ -22,7 +26,7 @@ footer {
 
 h1{
     font-family: 'Rock Salt', cursive; 
-    border-bottom: solid 1px grey;
+    border-bottom: solid 1px #46b8da;
 }
 
 .sidebar-panel {
@@ -48,7 +52,7 @@ h1{
 }
 
 #projects{
-    border: solid 1 px #1abbec;
+    border:solid 0.4px #ddd;
     display: inline-block;
     background-color:#ffffff;
     padding:10px;
@@ -84,11 +88,19 @@ img{
     border: solid 1px rgb(28, 28, 29);
 }
 
+.img-responsive:hover {
+    background-color: #46b8da;
+}
+
 /* contact page */
 
 form {
-    border: solid 1 px white;
+    border:solid 0.4px #ddd;
     background-color: white;
     padding: 15px;
     font-family: 'Titillium Web', sans-serif;
 };
+
+#porto {
+    display: inline-block
+}
