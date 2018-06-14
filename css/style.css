@@ -48,10 +48,12 @@ h1{
 }
 
 #projects{
+    border: solid 1 px #1abbec;
     display: inline-block;
     background-color:#ffffff;
     padding:10px;
     font-family: 'Titillium Web', sans-serif;
+    
 }
 
 h2{
