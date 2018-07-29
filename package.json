@@ -2,8 +2,11 @@
   "name": "bootstrap-portfolio",
   "version": "1.0.0",
   "description": "Portfolio Utilizing Bootstrap",
-  "main": "index.js",
-  "dependencies": {},
+  "main": "index.html",
+  "dependencies": {
+    "express": "^4.16.3",
+    "nodemon": "^1.18.3"
+  },
   "devDependencies": {
     "browser-sync": "^2.23.6",
     "gulp": "^3.9.1",
