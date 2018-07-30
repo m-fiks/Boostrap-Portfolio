@@ -31,12 +31,13 @@ h1{
 
 .sidebar-panel {
     width: 275px;
-    margin-bottom: 80px;
+    float:right;
 }
 
 .panel-heading{
     text-align:center;
 }
+
 .panel-body a {
     font-size: 36px;
     margin-left: 18px;
@@ -57,7 +58,6 @@ h1{
     background-color:#ffffff;
     padding:10px;
     font-family: 'Titillium Web', sans-serif;
-    
 }
 
 h2{
@@ -92,8 +92,6 @@ img{
     background-color: #46b8da;
 }
 
-/* contact page */
-
 form {
     border:solid 0.4px #ddd;
     background-color: white;
@@ -103,4 +101,14 @@ form {
 
 #porto {
     display: inline-block
+}
+
+.caption-header {
+    font-weight: bold;
+}
+
+button {
+    border: solid 1px rgb(140, 146, 156);
+    background-color: rgb(148, 182, 196);
+    margin: 2px;
 }
