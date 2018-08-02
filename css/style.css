@@ -92,7 +92,7 @@ img{
     background-color: #46b8da;
 }
 
-form {
+.form {
     border:solid 0.4px #ddd;
     background-color: white;
     padding: 15px;
@@ -105,6 +105,17 @@ form {
 
 .caption-header {
     font-weight: bold;
+}
+
+#comment {
+    width: 400px;
+    height: 200px;
+}
+
+#submit{
+    border: solid 1px rgb(140, 146, 156);
+    background-color: rgb(148, 182, 196);
+    margin: 2px;
 }
 
 button {
